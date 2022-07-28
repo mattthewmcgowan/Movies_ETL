@@ -1,0 +1,39 @@
+Objective: 
+
+The amazing Prime team would like to develop an algorithm that will predict which low budget movies being released will become popular so they can buy
+the streaming rights at a bargin. 
+
+Working with two data sources. 
+	A scrape of Wikipedia for all movies released since 1990 & rating data from movielands website. 
+
+Extract: read the data, often from multiple sources. 
+Transform: clean and structure the data in desired form. 
+Load: Write the data into a database for storage. 
+
+To load the raw JSON into a list of dictionaries, we will use the load() method.
+
+Transform: Should have three steps. 
+	- Inspect, Plan, Execute. 
+Created a function. 
+
+Function: Variables created outside the function are called global variables. 
+	  Variables created inside the function are local variables. 
+	 The hierarchy of variables is called the scope. 
+
+EXAMPLE: 
+
+x = 'global value'
+
+def foo():
+    x = 'local value'
+    print(x)
+
+foo()
+print(x)
+
+Lambda: lambda functions are written in one line and automatically return a value without using the return keyword. 
+
+EXAMPLE: 
+
+lambda arguments: expression. 
+
